@@ -1,0 +1,13 @@
+{
+  "name": "cc-zellij-tab-status",
+  "owner": {
+    "name": "Yceforp"
+  },
+  "plugins": [
+    {
+      "name": "cc-zellij-tab-status",
+      "source": "./cc-zellij-tab-status",
+      "description": "Suffixe le nom de chaque tab Zellij avec l'état des Claude Code qui y tournent (working, done, permission)."
+    }
+  ]
+}
