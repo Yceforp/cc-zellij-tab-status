@@ -18,7 +18,7 @@ Plusieurs Claude dans la même tab → tous les symboles sont concaténés (`●
 
 ## Preview
 
-> Preview coming soon
+![Preview](preview.gif)
 
 ## Pourquoi
 
