@@ -70,16 +70,16 @@ export CC_TAB_STATUS_SYM_P="!"
 ```mermaid
 flowchart LR
     subgraph "Claude Code (par session)"
-        events[Hook events:<br/>PreToolUse, Stop,<br/>PermissionRequest, ...]
+        events["Hook events:<br/>PreToolUse, Stop,<br/>PermissionRequest, ..."]
     end
 
     subgraph "Hook script (par pane)"
         hook[cc-tab-status.sh]
-        state[/tmp/cc-tabs/&lt;session&gt;/&lt;pane_id&gt;<br/>contient W, D ou P]
+        state["/tmp/cc-tabs/&lt;session&gt;/&lt;pane_id&gt;<br/>contient W, D ou P"]
     end
 
     subgraph "Zellij"
-        listpanes[zellij action list-panes<br/>→ map pane_id → tab_id]
+        listpanes["zellij action list-panes<br/>→ map pane_id → tab_id"]
         rename[zellij action rename-tab-by-id]
         tabbar[Tab-bar native]
     end
